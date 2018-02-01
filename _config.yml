@@ -1,0 +1,27 @@
+baseurl: ""
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+liquid:
+  error_mode: strict
+
+markdown: kramdown
+
+pagination:
+  enabled: true
+  debug: false
+  per_page: 1
+  permalink: '/page/:num/'
+  title: ':title (page :num)'
+  sort: 'date'
+  sort_reverse: true
+
+permalink: pretty
+
+strict_front_matter: true
+
+title: Link Bug
+
+url: "http://localhost"
